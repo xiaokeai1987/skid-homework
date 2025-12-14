@@ -4,7 +4,7 @@ export const DIAGRAM_TOOL_PROMPT = `
 Use this tool to render 2D mathematical graphs, geometry, and statistical plots using the \`function-plot\` library.
 
 ### 1. Trigger Syntax
-To render a graph, output a code block with the language tag \`math_graph\` containing a valid JSON object.
+To render a graph, output a code block with the language tag \`plot-function\` containing a valid JSON object.
 
 ### 2. JSON Configuration Schema
 
